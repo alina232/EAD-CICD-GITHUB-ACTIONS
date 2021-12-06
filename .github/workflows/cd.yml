@@ -24,7 +24,7 @@ jobs:
             #Now we have got the access of Azure and we will start the deploy .
             cd /var/www/cicd.alinatimilsina.live/EAD-CICD-GITHUB-ACTIONS &&
             git checkout main &&
-            git fetch --all &&
-            git reset --hard origin/main &&
-            git pull origin main
+            sudo git fetch --all &&
+            sudo git reset --hard origin/main &&
+            sudo git pull origin main
           '
